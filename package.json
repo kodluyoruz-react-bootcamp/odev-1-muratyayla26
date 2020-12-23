@@ -1,0 +1,27 @@
+{
+  "name": "odev1_bootcamp",
+  "version": "1.0.0",
+  "description": "kodluyoruz first week homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-muratyayla26.git"
+  },
+  "author": "murat yayla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-muratyayla26/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-muratyayla26#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  }
+}
