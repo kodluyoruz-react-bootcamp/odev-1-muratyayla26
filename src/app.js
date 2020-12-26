@@ -7,7 +7,7 @@ const controlFunc = async () => {
     let userLength = users.length;
     return userLength;
 };
-    
+
 /* log user infos */
 let userLength = controlFunc().then(response => {
     for ( let i = 1 ; i <= response; i++ ){
